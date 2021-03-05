@@ -18,7 +18,9 @@ export default class App extends Component {
   render() {
   return (
     <div className="App">
-      <h1>{this.props.title}</h1>
+      <div className="title-container">
+        <h1>{this.props.title}</h1>
+      </div>
       <Form onSubmit={this.addNewProfile}/>
       <CardList profiles={this.state.profiles} />
     </div>
