@@ -13,6 +13,7 @@ export default class Card extends Component {
                 <div className="info-container">
                     <div className="name">{profile.name}</div>
                     <div className="company">{profile.company}</div>
+                    <div className="biography">{profile.bio}</div>
                 </div>
             </div>
         )
