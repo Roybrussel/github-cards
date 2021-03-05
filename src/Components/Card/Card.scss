@@ -1,0 +1,15 @@
+.profile-container {
+	display: flex;
+	flex-direction: row;
+	img {
+		width: 75px;
+	}
+	.info-container {
+		margin-left: 12px;
+		height: 100%;
+		.name {
+			font-size: 1.25rem;
+			font-weight: bold;
+		}
+	}
+}
